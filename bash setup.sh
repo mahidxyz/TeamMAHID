@@ -21,8 +21,7 @@ gem install lolcat
 figlet -f big Wait | lolcat
 
 # GitHub link updated here
-git clone https://github.com/mahidxyz/Mahid-Setup-Termux.git simple-edit
-
+git clone https://github.com/mahidxyz/Mahid-Setup-Termux
 sed 's+THBD+'$user'+g' simple-edit/bash.bashrc > /data/data/com.termux/files/usr/etc/bash.bashrc
 sed 's+THBD+'$user'+g' simple-edit/wlc.py > /data/data/com.termux/files/usr/etc/wlc.py
 rm -rf simple-edit
